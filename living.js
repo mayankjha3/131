@@ -25,7 +25,7 @@ function draw(){
         objectDetector.detect(img , gotResult);
         for(i = 0; i < objects.length; i++){
             console.log("stactus:object detected");
-            document.getElementById("status").innerHTML = "Status : Detecting Objects";
+            document.getElementById("status").innerHTML = "Status : Detected Objects";
             document.getElementById("number_of_objects").innerHTML = "number of objects :" + objects.length;
             fill(r , g , b);
             stroke(r , g , b);
